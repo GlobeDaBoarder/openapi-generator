@@ -1,15 +1,15 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <groupId>org.openapitools</groupId>
-        <artifactId>openapi-generator-project</artifactId>
+        <groupId>com.github.globedaboarder</groupId>
+        <artifactId>openapi-generator-project-custom</artifactId>
         <!-- RELEASE_VERSION -->
         <version>0.0.1</version>
         <!-- /RELEASE_VERSION -->
         <relativePath>../..</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>openapi-generator</artifactId>
+    <artifactId>openapi-generator-custom</artifactId>
     <packaging>jar</packaging>
     <name>openapi-generator (core library)</name>
     <build>

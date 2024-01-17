@@ -8,8 +8,8 @@
     <!-- lookup parent from repository -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.openapitools</groupId>
-    <artifactId>openapi-generator-project</artifactId>
+    <groupId>com.github.globedaboarder</groupId>
+    <artifactId>openapi-generator-project-custom</artifactId>
     <packaging>pom</packaging>
     <name>openapi-generator-project</name>
     <!-- RELEASE_VERSION -->

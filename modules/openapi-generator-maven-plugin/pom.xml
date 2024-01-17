@@ -2,14 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.openapitools</groupId>
-        <artifactId>openapi-generator-project</artifactId>
+        <groupId>com.github.globedaboarder</groupId>
+        <artifactId>openapi-generator-project-custom</artifactId>
         <!-- RELEASE_VERSION -->
         <version>0.0.1</version>
         <!-- /RELEASE_VERSION -->
         <relativePath>../..</relativePath>
     </parent>
-    <artifactId>openapi-generator-maven-plugin</artifactId>
+    <artifactId>openapi-generator-maven-plugin-custom</artifactId>
     <name>openapi-generator (maven-plugin)</name>
     <packaging>maven-plugin</packaging>
     <description>maven plugin to build modules from OpenAPI Generator</description>
@@ -54,9 +54,9 @@
             <version>3.9.0</version>
         </dependency>
         <dependency>
-            <groupId>org.openapitools</groupId>
-            <artifactId>openapi-generator</artifactId>
-            <version>${project.version}</version>
+            <groupId>com.github.globedaboarder</groupId>
+            <artifactId>openapi-generator-custom</artifactId>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
